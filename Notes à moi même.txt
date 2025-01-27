@@ -1,0 +1,13 @@
+Actions du visiteur
+-Patrouiller (il cherche un stand OU un employé, s'arrête quand il trouve)
+-Idle (Il fait une idle animation pour regarder autour des fois si il trouve rien)
+-Detection (Il se rend vers un employé ou un stand
+SI C'EST UN STAND : il y va	
+SINON : Il demande à un employé ou est le stand puis va au stand)
+-Faim (Si sa barre de faim est trop haute il va graille apres sa prochaine action)
+
+
+Actions de l'employé
+-Patrouiller (il marche dans un cercle défini et s'arrête sur des points de passages)
+-Idle (pareil)
+-Renseigner (Si un visiteur l'arrête il lui renseigne le stand le plus proche)
